@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  flask-app:
+    image: fcongedo/app-flask:1
+    container_name: mi_app_flask
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+    command: ["flask", "run", "--host", "0.0.0.0"]
