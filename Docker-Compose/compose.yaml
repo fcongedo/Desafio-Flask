@@ -1,11 +1,8 @@
-version: '3.8'
+version: '3.8doc'
 
 services:
   flask-app:
     image: fcongedo/app-flask:1
     container_name: mi_app_flask
     ports:
-      - "5000:5000"
-    environment:
-      - FLASK_APP=app.py
-    command: ["flask", "run", "--host", "0.0.0.0"]
+      - "5000:5000/tcp"
