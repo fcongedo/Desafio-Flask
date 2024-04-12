@@ -51,7 +51,7 @@ En el directorio de tu proyecto, encontrarás una carpeta llamada "Vagrant". Est
    ```bash
    minikube start
    ```
- Para este paso es tan simple como verificar estar conectados a nuestro cluster de kubernetes (poder ejecutar un kubectl get pods -A sin errores) y asi crear nuestros recursos dentro del directorio Kubernetes con el siguiente comando (asegurarse de estar dentro del directorio desafio-grupal-k8s):
+ Para este paso es tan simple como verificar estar conectados a nuestro cluster de kubernetes (poder ejecutar un kubectl get pods -A sin errores) y asi crear nuestros recursos dentro del directorio Kubernetes con el siguiente comando (asegurarse de estar dentro del directorio desafio-flask):
 
 1. **Crear Recursos en Kubernetes:** Asegúrate de estar dentro del directorio `desafio-flask` y ejecuta:
     ```bash
